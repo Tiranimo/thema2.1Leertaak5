@@ -1,7 +1,13 @@
 {
-    "minimum-stability": "dev",
+    "name": "Harald/thema2.1Leertaak5",
+    "authors": [
+        {
+            "name": "Harald Heerspink",
+            "email": "hheerspink@gmail.com"
+        }
+    ],
     "require": {
-        "silex/silex": "1.0.*@dev",
+	    "silex/silex": "1.0.*@dev",
         "symfony/browser-kit": "2.1.*",
         "symfony/console": "2.1.*",
         "symfony/config": "2.1.*",
@@ -19,10 +25,10 @@
         "symfony/monolog-bridge": "2.1.*",
         "symfony/twig-bridge": "2.1.*",
         "monolog/monolog": ">=1.0.0,<1.2-dev",
-        "twig/twig": ">=1.2.0,<2.0-dev",
+        "twig/twig": ">=1.8.0,<2.0-dev",
         "doctrine/dbal": ">=2.2.0,<2.4.0-dev",
         "swiftmailer/swiftmailer": "4.1.*",
-        "doctrine/mongodb": "*",
-        "mheap/Silex-Mongo": "*"
+        "doctrine/mongodb": "*"
+
     }
 }
